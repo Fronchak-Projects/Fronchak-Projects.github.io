@@ -1,3 +1,103 @@
+/* VARIABLES */
+:root {
+  --primary-color: #4690EB;
+  --bio-bg-color: #1E2A3A;
+  --main-text-color: #FFF;
+}
+
+/* GENERAL */
+
 * {
     font-family: 'Roboto', sans-serif;;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* IDS */
+
+#btn-projects {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 25px 0;
+  padding: 12px 10px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#btn-projects i {
+  font-size: 1.1em;
+}
+
+#btn-projects:hover {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+#email-link {
+  transition: 0.5s;
+}
+
+#email-link:hover {
+  color: var(--primary-color);
+}
+
+#social-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+#social-container i {
+  transition: 0.5s;
+  font-size: 2em;
+}
+
+/* CLASSES */
+.primary-color {
+  color: var(--primary-color);
+}
+
+.main-text-color {
+  color: var(--main-text-color);
+}
+
+.big-bg-color {
+  background-color: var(--bio-bg-color);
+}
+
+.skill-box .skill-title {
+  font-weight: bold;
+  font-weight: 1.2em;
+  border-left: 5px solid var(--primary-color);
+  padding-left: 10px;
+}
+
+.skill-box .skills-icons-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px
+}
+
+.skills-icons-container i {
+  font-size: 3.2em;
 }
