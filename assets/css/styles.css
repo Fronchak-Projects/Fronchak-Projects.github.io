@@ -11,8 +11,8 @@
   --react-section-border-color: #1C5EEC;
   --games-section-bg-color: #CC89E5;
   --games-section-border-color: #B533E4;
-  --static-pages-section-bg-color: #E6DFDF;
-  --static-pages-section-border-color: #C5C3C3;
+  --static-pages-section-bg-color: #BBB;
+  --static-pages-section-border-color: #888;
 }
 
 /* GENERAL */
@@ -164,6 +164,15 @@ li {
 
 .games-section .project-card-container img:hover {
   border-color: var(--games-section-border-color);
+}
+
+.static-pages-section {
+  background-color: var(--static-pages-section-bg-color);
+  border-color: var(--static-pages-section-border-color);
+}
+
+.static-pages-section .project-card-container img:hover {
+  border-color: var(--static-pages-section-border-color);
 }
 
 .modal-header, .modal-footer {
