@@ -152,3 +152,15 @@ li {
 .react-section .project-card-container img:hover {
   border-color: var(--react-section-border-color);
 }
+
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.modal-header, .modal-body {
+  padding-bottom: 0;
+}
+
+.modal-footer {
+  padding-top: 0;
+}
