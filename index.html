@@ -28,7 +28,7 @@
 </head>
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white border-bottom">
     <div class="container">
       <a class="navbar-brand" href="#">Gabriel Fronchak Gmack</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,17 +37,17 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-uppercase" href="#">Java</a>
+            <a class="nav-link text-uppercase" href="#java">Java</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PHP</a>
+            <a class="nav-link" href="#php">PHP</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- BIO SECTION -->
-  <section class="big-bg-color py-3 py-md-5 text-white">
+  <section class="big-bg-color py-3 mt-3 py-md-5 main-text-color">
     <div class="container">
       <header class="mb-3">
         <h1 class="mb-0 fw-bold">Gabriel Fronchak Gmack</h1>
@@ -122,6 +122,48 @@
               <i class="devicon-git-plain colored"></i>
               <i class="devicon-linux-plain"></i>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- JAVA SECTION -->
+  <section class="big-bg-color py-3 py-md-5 main-text-color section java-section" id="java">
+    <div class="container">
+      <header class="mb-3">
+        <h2 class="fw-bold">Java & Spring Boot</h2>
+      </header>
+      <div class="container px-0">
+        <div class="row g-5 row-cols-1 row-cols-md-2">
+          <div class="col project-card-container">
+            <h5 class="mb-2">DS Catalog Backend</h5>
+            <a href="https://github.com/Fronchak-Projects/DS-Catalog-Backend" target="_blank">
+              <img class="img-fluid" src="./assets/imgs/ds-catalog.png" />
+            </a>
+          </div>
+          <div class="col project-card-container">
+            <h5 class="mb-2">Anime Flix Backend</h5>
+            <a href="https://github.com/Fronchak-Projects/Animeflix-Backend" target="_blank">
+              <img class="img-fluid" src="./assets/imgs/anime-flix.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- LARAVEL SECTION -->
+  <section class="big-bg-color py-3 py-md-5 main-text-color section php-section" id="php">
+    <div class="container">
+      <header class="mb-3">
+        <h2 class="fw-bold">PHP & Laravel</h2>
+      </header>
+      <div class="container px-0">
+        <div class="row g-5 row-cols-1 row-cols-md-2">
+          <div class="col project-card-container">
+            <h5 class="mb-2">Movie Flix Backend</h5>
+            <a href="https://github.com/Fronchak-Projects/MovieFlix-Backend" target="_blank">
+              <img class="img-fluid" src="./assets/imgs/movie-flix.png" />
+            </a>
           </div>
         </div>
       </div>
